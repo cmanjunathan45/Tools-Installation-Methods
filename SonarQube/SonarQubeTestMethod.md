@@ -116,6 +116,13 @@ This guide provides step-by-step instructions on how to analyze your local code 
 ### Review Analysis Results
 
 1. Open the SonarQube dashboard at `http://localhost:9000` and navigate to your project to view the analysis results.
+2. To Create a project go to sonar UI. Click on Create a local project.
+3. Fill the basic data.
+4. In Set up project for Clean as You Code, choose "Use the global setting".
+5. Analysis Method - Locally.
+6. provide a token and choose your product language.
+7. Copy the content in gave you, and execute in the project folder's CMD.
+8. The analysis will be start and once it's completed go to issues tab and you'll find the issues(if any) that the tool identifies
 
 ## Additional Tips
 
